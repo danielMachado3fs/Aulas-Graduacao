@@ -12,7 +12,7 @@ import javax.swing.JOptionPane;
  *
  * @author daniel.maciel
  */
-public class ExerciciosTeóricos {
+public class ExerciciosTeoricos {
     /*
     1.O que é um Array?
     O array é um objeto onde é possivel definir n espaços de memória (casa)
