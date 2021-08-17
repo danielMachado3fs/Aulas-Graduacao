@@ -1,10 +1,7 @@
 
 package aula2;
 
-import java.sql.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.Vector;
 import javax.swing.JOptionPane;
 
@@ -78,52 +75,7 @@ public class ExerciciosTeoricos {
     */
     
     public static void main(String [] args){
-        //1. Escreva a(s) linha(s) de código para construir um array de inteiros com 
-        //20 posições.
-        System.out.println("Número 1");
-        int [] x = new int[20];       
-        //2. Escreva um laço de repetição para carregar um array de inteiros de 10 
-        //posições. O array deverá receber como conteúdo o valor da sua posição.
-        System.out.println("Número 2");
-        int [] y = new int[10];
-        for(int i = 0; i < y.length; i++){
-            y [i] = i;
-        System.out.println("Posição "+i+" = "+y[i]);
-        }
-        
-        //3. Escreva o comando para mostrar o tamanho de um array.
-        System.out.println("Número 3");
-        System.out.println("O vetor y contem "+y.length+" casas");
-        //4. Escreva um programa para:
-        //a. Carregar um array unidimensional com 10 posições de inteiros onde 
-        //os números deverão ser digitados pelo usuário utilizando a entrada gráfica de Java.
-        int [] vetor = new int[10];
-        for(int i = 0; i < vetor.length; i++){
-            String nu = JOptionPane.showInputDialog("Informe o "+i+"° número");
-            int n = Integer.parseInt(nu);
-            vetor[i] = n;
-        }
-        System.out.println(vetor.toString());
-        
-        //b. Ordenar os números carregados no array.
-        java.util.Arrays.sort(vetor);
-        //c. Adicionar um código que solicita ao usuário um número 
-        //qualquer e o programa deverá buscar esse número no array 
-        //carregado.
-        System.out.println();
-        //5. Escreva um código para mostrar todos os números carregados.
-        System.out.println();
-        //6. Escreva um programa onde o usuário digita um número inteiro e um 
-        //vetor de 50 posições armazena esse número em todas as suas posições.
-        System.out.println();
-        //7. Escreva um programa que carrega um array bidimensional 3x3 somente 
-        //com números pares(o programa deverá validar a entrada) e mostre os 
-        //números carregados.
-        System.out.println();
-        //8. Refaça o exercício anterior utilizando a classe Vector.
-        System.out.println();
-
-        
+    	
         
         
         List lista = new ArrayList<>();
