@@ -1,4 +1,4 @@
-package aula2;
+package aula_arrays_listas;
 
 import java.util.Arrays;
 import java.util.Random;

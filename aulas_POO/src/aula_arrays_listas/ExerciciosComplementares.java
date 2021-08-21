@@ -1,4 +1,4 @@
-package aula2;
+package aula_arrays_listas;
 
 public class ExerciciosComplementares {
 	
@@ -46,6 +46,7 @@ public class ExerciciosComplementares {
 			classe Vector que você aprendeu. Escreva mensagens dizendo o que o método 
 			irá fazer depois execute o método e mostre o vetor.
 			
+			
 			3. Consulta a API do Java e descreva os seguites métodos das classes Wrapper.
 			
 			4. Consulte a API do Java e descreva os métodos ou constantes da classe Integer:
@@ -61,21 +62,50 @@ public class ExerciciosComplementares {
 			• Integer(String s);
 				Constroi um novo objeto Integer para representar o valor int passado como
 				string no parametro. A String é convertida em int.
+				
 			• parseInt(String s);
+				Transforma um argumento String que representa um decimal, em um valor int.
+				A String deve conter apenas caracteres decimais, podendo tambem ter os
+				sinas menos(-) e mais(+) na frente.
+			
 			• toString(int i);
+				Retorna o objeto String que representa o inteiro passado como argumento.
+				O inteiro é convertido em uma representação decimal com sinal na base 10.
+			
 			• toString();
+				Converte um objeto Integer para um objeto String como representação decimal
+				com sinal na base 10.
 			
 			5. Consulte a API do Java e descreva os métodos ou constantes da classe Float:
 			• SIZE;
+				
 			• intValue();
+				Trasforma o objeto Float em uma valor int caso o mesmo caiba no tipo int.
+				
 			• Float(String s);
+				Instancia um novo objeto Float que representa com um valor float o objeto
+				String passado como parametro.
+				
 			• Float(double s);
+				Instancia um novo objeto Float que representa com um valor float o valor
+				double passado como parametro.
+				
 			• toString(float f);
+				Retorna o objeto String que representa o valor do tipo primitivo 
+				float passado como parametro.
+				
 			• toString();
+				Converte o objeto Float para um objeto String como representação decimal.
+				
 			• Float(float s);
+				Instancia um novo objeto Float que representa o tipo primitivo float
+				passado como parametro.
 			
 			6. O construtor Float(float s) qual a vantagem de usar esse construtor 
 			sendo que o argumento também é um float?
+				A vantagem é que, ao transforma um tipo primitivo em um objeto, será possivel
+				utilizar os métodos daquela classe para facilitar o código caso precise transformar
+				valores, entre outras opções.
 		 */
 		
 		
